@@ -18,3 +18,7 @@ variable "vpc_cidr" {}
 variable "vpc_tenancy" {
  default = "default"
 }
+
+variable "name-tag-ec2"{}
+
+variable "name-tag-vpc"{}

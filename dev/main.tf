@@ -6,14 +6,14 @@ module "my_vpc"{
   enable_dns_hostnames = false
   enable_classiclink = false
   assign_generated_ipv6_cidr_block = false
-  name-tag = "MY-Test-VPC"
+  name-tag-vpc = var.name-tag-vpc
 }
 
 
 module "my_ec2"{
   source = "../modules/ec2"
-  ec2_count = "1"
   ami_id = lookup(var.ami_id, var.region)
   instance_type = "t2.micro"
+  name-tag-ec2 = var.name-tag-ec2
 }
 

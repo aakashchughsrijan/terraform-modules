@@ -18,5 +18,5 @@ variable "assign_generated_ipv6_cidr_block"{
   default = false
 }
 
-variable "name-tag"{}
+variable "name-tag-vpc"{}
 

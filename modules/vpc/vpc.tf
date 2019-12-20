@@ -7,7 +7,7 @@ resource "aws_vpc" "mytestvpc" {
   assign_generated_ipv6_cidr_block = var.assign_generated_ipv6_cidr_block
 
   tags = {
-    Name = var.name-tag
+    Name = var.name-tag-vpc
   }
   lifecycle {
     create_before_destroy = true
