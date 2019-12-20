@@ -1,6 +1,6 @@
 resource "aws_vpc" "mytestvpc" {
   cidr_block       = var.vpc_cidr
-  instance_tenancy = var.tenancy
+  instance_tenancy = var.vpc_tenancy
   enable_dns_support = var.enable_dns_support
   enable_dns_hostnames = var.enable_dns_hostnames
   enable_classiclink = var.enable_classiclink

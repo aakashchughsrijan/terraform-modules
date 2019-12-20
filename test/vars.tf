@@ -11,6 +11,7 @@ variable "ami_id"{
    us-east-2 = "ami-0c64dd618a49aeee8"
    us-west-1 = "ami-0c64dd618a49a"
 }
+}
 
 variable "vpc_cidr" {}
 

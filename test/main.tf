@@ -1,7 +1,7 @@
 module "my_vpc"{
   source = "../modules/vpc"
   vpc_cidr = var.vpc_cidr
-  tenancy = var.vpc_tenancy
+  vpc_tenancy = var.vpc_tenancy
   enable_dns_support = true
   enable_dns_hostnames = false
   enable_classiclink = false

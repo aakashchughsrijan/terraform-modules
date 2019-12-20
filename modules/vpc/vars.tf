@@ -1,7 +1,7 @@
 variable "vpc_cidr"{}
 
-variable "tenancy"{
-  default = "dedicated"
+variable "vpc_tenancy"{
+  default = "default"
 }
 
 variable "enable_dns_support"{
