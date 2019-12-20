@@ -1,8 +1,6 @@
 variable "vpc_cidr"{}
 
-variable "vpc_tenancy"{
-  default = "default"
-}
+variable "vpc_tenancy"{}
 
 variable "enable_dns_support"{
   default = true
