@@ -6,6 +6,7 @@ resource "aws_instance" "web" {
   tags = {
     Name = "myfirstec2"
   }
+  
   lifecycle {
     create_before_destroy = true
   }
