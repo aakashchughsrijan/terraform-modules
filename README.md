@@ -74,8 +74,3 @@ terraform apply
 ### Verify on AWS using console that the infra that get spin-up on AWS is as per the script or not. 
 
 Login to the console and verify the resources that got spin-up.
-
-
-## Authors
-
-* **Aakash Chugh** - [aakashchugh](https://github.com/aakashchughsrijan/terraform-modules.git)
