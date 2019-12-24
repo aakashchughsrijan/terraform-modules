@@ -8,7 +8,7 @@ These instructions will get you a copy of the project and help you spin-up resou
 
 ### Prerequisites
 
-There is only one Prerequisite for this to run on your local you just need to update terraform.tfvars file in you development env. directoy(dev, prod) dev in this case.
+There is only one Prerequisite for this to run on your local you just need to update terraform.tfvars file in you development env. directory(dev, prod) dev in this case.
 
 ```
 cd dev
