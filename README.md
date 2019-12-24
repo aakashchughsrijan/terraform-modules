@@ -8,30 +8,14 @@ These instructions will get you a copy of the project and help you spin-up resou
 
 ### Prerequisites
 
-There is only one Prerequisite for this to run on your local you just need terraform.tfvars file in you development env. directoy(dev, prod) dev in this case.
+There is only one Prerequisite for this to run on your local you just need to update terraform.tfvars file in you development env. directoy(dev, prod) dev in this case.
 
 ```
 cd dev
 
-touch terraform.tfvars
+vi terraform.tfvars
 ```
-Pass the value to the variables that we will be needing to spinn-up the resources in AWS like below:
-
-```
-access_key = "<access-key>"
-
-secret_key = "<secret-key>"
-
-region = "us-east-2"
-
-vpc_cidr = "192.168.0.0/16"
-
-vpc_tenancy = "default"
-
-name-tag-ec2 = "<name-tag-here>"
-
-name-tag-vpc = "<name-tag-here>"
-```
+update the values in terraform.tfvars file according to the env.
 
 ## Deployment
 
