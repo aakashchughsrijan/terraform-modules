@@ -14,10 +14,12 @@ There is only one Prerequisite for this to run on your local you just need to up
 cd dev
 ```
 
+Update the values in terraform.tfvars file according to the need.
+
 ```
 vi terraform.tfvars
 ```
-update the values in terraform.tfvars file according to the env.
+
 
 ## Deployment
 
